@@ -1,3 +1,13 @@
+<?php  
+/*
+Muhammad Fajriansyah
+203040033
+https://github.com/fajrlansyah/pw2021_203040033.git
+Pertemuan 4 - 04 Maret 2021
+Mempelajari mengenai sintaks PHP
+*/
+?>
+
 <?php
 // Pengulangan pada array
 // for / foreach
