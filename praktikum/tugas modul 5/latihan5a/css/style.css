@@ -1,0 +1,28 @@
+/*
+Nama : Muhammad Fajriansyah
+Nrp : 203040033
+Shift Praktikum : Rabu pukul 10.00 WIB
+*/
+
+table {
+	border: 1px solid black;
+}
+
+td,
+h2 {
+	text-align: center;
+}
+
+h1 {
+	text-align: justify;
+}
+
+img {
+	text-align: 250px;
+}
+
+.slider h3,
+.slider h5,
+.clients h3 {
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
