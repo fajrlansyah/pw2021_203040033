@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 18, 2021 at 06:41 PM
+-- Generation Time: May 04, 2021 at 08:46 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.34
 
@@ -51,6 +51,28 @@ INSERT INTO `mahasiswa` (`id`, `img`, `nrp`, `nama`, `email`, `jurusan`) VALUES
 (8, 'nandhy.jpeg', '203040034', 'Nandhy Perisya', 'nandhyperisya@gmail.com', 'Teknik Informatika'),
 (9, 'nuel.jpeg', '203040035', 'Nuel Marco', 'nuelmarco@gmail.com', 'Teknik Informatika'),
 (10, 'raka.jpeg', '203040036', 'Raka Saputra', 'rakasaputra@gmail.com', 'Teknik Informatika');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `username` varchar(64) NOT NULL,
+  `password` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `username`, `password`) VALUES
+(0, 'admin', 'admin'),
+(1, 'admin', 'admin'),
+(0, 'fajrianssyah', '$2y$10$jMjv2kU9l2zT3dGKJ4COke6BEctZYRsFHeCeHwx4R9ZS0SkRWnFuG'),
+(0, 'bio', '$2y$10$EMnXXk7TV7FbLS2Tk9B7vOsa1e25ti6WcIRmXRCqgH4rR4His8sTq');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
